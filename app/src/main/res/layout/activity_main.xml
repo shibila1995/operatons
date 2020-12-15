@@ -1,0 +1,36 @@
+<LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+            android:onClick="addfunction"
+            android:layout_margin="10dp"
+            android:text="Addition"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:onClick="subfunction"
+            android:layout_margin="10dp"
+            android:text="Subtraction"
+            android:background="@drawable/buttonstyle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:onClick="multfun"
+            android:layout_margin="10dp"
+            android:text="Multiplication"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:onClick="divfun"
+            android:layout_margin="10dp"
+            android:text="Division"
+            android:background="@drawable/buttonstyle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
